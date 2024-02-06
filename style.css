@@ -338,7 +338,11 @@ form btn2{
 nav .fa-solid{
     display: none;
 }
-
+@media (max-width: 768px){
+    .marg{
+        font-size: medium;
+    }
+}
 @media only screen and (max-width: 625px){
     #header{
         background-image: url(imgs/phot11.jpg);
