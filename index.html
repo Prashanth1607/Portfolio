@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prashanth</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/cf2656625d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="imgs/logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pursuits">Extracurricular Pursuits</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>A Computer Science Student</p>
+          <h1>
+            Hi, I'm <span>Prashanth</span><br />
+            From PES University
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!----------------about----------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="imgs/photo.jpg" alt="" class="imsr" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="marg">
+              My self Prashanth Gowda G D. As a final-year Computer Science and Engineering student, 
+              I bring a strong academic foundation, hands-on programming skills, and a passion for innovative
+              problem-solving. Throughout my academic journey, I have acquired in-depth knowledge in core CSE concepts,
+              including data structures, cloud environments and software engineering principles. My coursework has equipped me
+              with proficiency in programming languages such as <b><i>Java Script, Python, and C Programming</i></b>, enabling me to develop and implement
+              efficient solutions to complex problems.
+              <br>
+              <br>
+              I have actively engaged in practical projects, both individually and as part of collaborative teams, showcasing
+              my ability to apply theoretical knowledge to real-world scenarios. Additionally, my dedication to staying updated
+              with the latest industry trends and technologies has driven me to pursue self-directed learning in areas such as <b><i>Development,
+              Data stores, Cloud computing and Blockchain</i></b>.
+              <br>
+              <br>
+              Beyond academics, I have actively done a job of <b><i>Logistics Domain in Kannada Koota club as a Domain Head</i></b>, demonstrating my leadership,
+              teamwork, and communication skills. As I approach graduation, I am eager to leverage my academic achievements and practical experiences to 
+              contribute effectively in a dynamic and challenging professional environment within the field of Computer Science and Engineering."
+              <br>
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <!--<p class="tab-links" onclick="opentab('experience')">Experience</p>-->
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Languages: </span><br>Java Script, C Programming, Python, SQL</bt></li>
+                <li><span>Tools: </span><br>Ganache, Docker</bt></li>
+                <li><span>Development Skills: </span><br>VS code, Git</bt></li>
+                <li><span>DataSotres and Cloud </span><br>MySQL, AWS, MongoDB</bt></li>
+              </ul>
+            </div>
+            <!--<div class="tab-contents" id="experience">
+                <ul>
+                  <li><span></span><br>Java Script, C Programming, Python, SQL</bt></li>
+                  <li><span>Tools: </span><br>Ganache, Docker</bt></li>
+                  <li><span>Development Skills: </span><br>VS code, Git</bt></li>
+                  <li><span>DataSotres and Cloud </span><br>MySQL, AWS, MongoDB</bt></li>
+                </ul>
+            </div>-->
+            <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2020-2024</span><br>B.Tech in CSE from PES University, Bangalore</bt></li>
+                  <li><span>2018-2020</span><br>12th from Sri Sapthagiri PU College, Tumkur</bt></li>
+                  <li><span>2017-2018</span><br>10th from Morarji Desai Residential School, Tumkur</bt></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-------------------Portfolio------------------------------->
+    <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+              <div class="work">
+                  <img src="imgs/work1.webp">
+                  <div class="layer">
+                      <h2>Detection of Counterfeit Products using Blockchain</h2>
+                      <p>
+                        Led a project focused on implementing a robust system for detecting counterfeit products
+                        through the integration of blockchain technology, ensuring enhanced supply chain transparency
+                        and authenticity verification.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+              </div>
+              <div class="work">
+                <img src="imgs/work2.jpg">
+                <div class="layer">
+                  <h2>Decentralized Lottery-Platform</h2>
+                  <p>Designed and implemented a cutting-edge Decentralized Lottery Platform leveraging Blockchain technology,
+                     ensuring transparency, security, and fairness in lottery operations. Developed smart contracts and integrated
+                    blockchain protocols to revolutionize traditional lottery systems.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="imgs/work3.png">
+                <div class="layer">
+                  <h2>Movie Recommendation System using Python</h2>
+                  <p>Developed a Movie Recommendation System using Python, employing collaborative filtering techniques
+                     to analyze user preferences and enhance personalized movie suggestions which recommends a movie to a user 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <div id="gridContainer" class="hidden">
+              <div class="work">
+                <img src="imgs/work4.png">
+                <div class="layer">
+                  <h2>Namma metro website</h2>
+                  <p>The Namma Metro Fare Calculation Website is a web application designed to assist users in calculating
+                     the fare for their metro journey within the Namma Metro network. The website provides a user-friendly interface
+                     where users can input their journey details, such as the source station and destination station, and obtain the calculated fare for the trip.</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+              </div>
+          </div>
+          <button class="btn" id="showButton">See more</button>
+
+
+        </div>
+    </div>
+
+    <!-------------------Extracurricular Pursuits----------------->
+    <div id="pursuits">
+      <div class="container">
+        <h1 class="sub-title" id="pur">Extracurricular Pursuits</h1>
+            <div class="pursuits-list">
+                <ul>
+                  <li class="li" id="li12">Head of Logistics Doamin in Kannada Koota club</li>
+                  <li class="li" id="li12">Organized many Cultural Events From the club Kannada Koota</li>
+                  <li class="li" id="li12">Participated in District Level Quiz Competition</li>
+                  <li class="li" id="li12">District Level Volley Ball and Kabaddi Player</li>
+                </ul>
+                <br>
+                <br>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------Contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>prashanthgowda.gd@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 8197278977</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Prashanth1607" target="new"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prashanth-gowda-gd-b2933a204/" target="new"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    </div>
+                    <a href="imgs/Prashanth's CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Prashanth. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+          sidemenu.style.right = "0"
+        }
+
+        function closemenu(){
+          sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw6kGz7RGhNXIlhghbdBPNJYNE2HnxfGqE14PtviabW5JdDeWxc5jEKgoZQ6o3z6L0kWQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg')
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          }
+          )
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script>
+      document.getElementById('showButton').addEventListener('click', function() {
+          var grid = document.getElementById('gridContainer');
+          if (grid.classList.contains('hidden')) {
+            grid.classList.remove('hidden');
+            this.textContent = 'See Less';
+          } else {
+            grid.classList.add('hidden');
+            this.textContent = 'See More';
+          }
+      });
+
+    </script>
+
+
+  </body>
+</html>
